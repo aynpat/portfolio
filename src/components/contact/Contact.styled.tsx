@@ -12,7 +12,7 @@ export const StyledContactSection = styled.div`
                 padding:9rem 2.5rem 5.5rem 2.5rem;
              }
             @media(max-width:768px){
-                padding:.5rem .5rem 5.5rem .5rem;
+                padding:.5rem 1.1rem 5.5rem 1.1rem;
             }
           
 

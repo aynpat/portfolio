@@ -13,7 +13,11 @@ export const StyleHeader = styled.header`
     backdrop-filter : blur(12px);
     font-weight : 700;
     width: 100%;
-
+    
+    @media(max-width:768px){
+      padding : 1.1rem 1.1rem;
+          height :fit-content;
+            }
 `
 
 export const StyleIconContainer = styled.div`
@@ -44,6 +48,10 @@ export const StyleButton = styled.button`
   z-index: 4;
   border-radius : none;
   overflow : hidden;
+
+   @media(max-width:768px){
+      padding: 0.8rem 1.2rem;
+            }
 
   /* Add styles for ::before pseudo-element */
   &::before {
