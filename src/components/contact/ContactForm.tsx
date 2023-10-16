@@ -32,7 +32,7 @@ export const ContactForm = () => {
     <FormContainer>
         <form ref={form} onSubmit={sendEmail}>
         
-        <input type="text" name="user_name" onChange={(e) => setNameVal(e.target.value)} value={nameVal} placeholder='Name hwllo test'/>
+        <input type="text" name="user_name" onChange={(e) => setNameVal(e.target.value)} value={nameVal} placeholder='Name'/>
        
         <input type="email" name="user_email" onChange={(e) => setEmailVal(e.target.value)} value={emailVal} placeholder='Email' />
         
