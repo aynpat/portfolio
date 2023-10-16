@@ -26,7 +26,7 @@ const About = React.forwardRef((props: PropsType, ref: React.Ref<HTMLDivElement>
                 </StyledAboutContent>
               
                 <StyledAboutImage>
-                    <img src="../../../public/images/about-final.svg" alt="this is a banner"/>
+                    <img src="/images/about-final.svg" alt="this is a banner"/>
                 </StyledAboutImage>
             </StyledContainer> 
     
