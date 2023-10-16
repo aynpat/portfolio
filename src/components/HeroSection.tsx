@@ -1,5 +1,5 @@
 import { HeroContainer, StyledBannerImage, StyledContentContainer, StyledHeroBtn, StyledHeroSection, StyledMainHeadContainer, StyledSubHeadContainer } from "./styles/HeroSection.style"
-
+import{FaRegPaperPlane} from 'react-icons/fa'
 
 const HeroSection = () => {
     return(
@@ -15,7 +15,7 @@ const HeroSection = () => {
             <StyledContentContainer>
                   I've spent the last 5 years building and scaling software for some pretty cool companies. I also teach people to paint online (incase you've got an empty canvas layin' around 🎨). Let's connect!
             </StyledContentContainer>
-            <StyledHeroBtn>Contact me</StyledHeroBtn>
+            <StyledHeroBtn><a className="btnLink" href="#contact">Contact me</a> <FaRegPaperPlane/></StyledHeroBtn>
         </StyledHeroSection>
 
         <StyledBannerImage>

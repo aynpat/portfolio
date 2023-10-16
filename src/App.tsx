@@ -61,7 +61,7 @@ function App() {
     }
     
 , [isAboutInView, isProjectInView, isSkillsInVIew, isContactInView]);
-    console.log(contents)
+
   return (
     <>
     

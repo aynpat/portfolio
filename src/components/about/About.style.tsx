@@ -73,7 +73,7 @@ export const StyledContainer = styled.div`
     gap: 4rem;
     align-items:center;
     flex-wrap:nowrap;
-
+    
     @media(max-width:671px){
             gap:3rem;
             flex-direction:column;
@@ -82,6 +82,8 @@ export const StyledContainer = styled.div`
         }
 `
 export const StyledAboutContent = styled.div`
+        justify-self: start;
+        width: 600px;
         max-width: fit-content;
 
     p {
@@ -89,11 +91,10 @@ export const StyledAboutContent = styled.div`
         font-size: 1.3rem;
         font-weight: 200;
         @media(max-width:800px){
-            font-size:1.2rem;
+            font-size:1rem;
+      
         }
-        @media(max-width:671px){
-            font-size:1.3rem;
-        }
+
     }
     span{
         text-align: center;
@@ -124,7 +125,7 @@ export const StyledAboutImage = styled.div`
             max-width: 250px;
         }
         @media(max-width:610px){
-            max-width: 200px;
+            max-width: 240px;
         }
 
     }

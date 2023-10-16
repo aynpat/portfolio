@@ -14,6 +14,7 @@ export const StyledContactSection = styled.div`
             @media(max-width:768px){
                 padding:.5rem .5rem 5.5rem .5rem;
             }
+          
 
 `
 
@@ -60,7 +61,10 @@ export const ContactContainer = styled.div`
     /* grid-template-columns: repeat(auto-fill, minmax(min-content, 1fr)); */
     grid-template-columns: 1fr repeat(1, minmax(min-content, 70%));
     gap: 20px;
-  
+    @media(max-width:768px){
+       grid-template-columns: 1fr;
+       padding : 2rem;
+    }
    
 `
 export const ContactInformation = styled.div`

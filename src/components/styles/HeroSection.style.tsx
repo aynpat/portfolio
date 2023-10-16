@@ -104,6 +104,11 @@ export const StyledContentContainer = styled.div`
 export const StyledHeroBtn = styled.button`
     background-color: #0aff9d;
     width : fit-content;
+   
+    .btnLink{
+        color :inherit;
+    }
+    
 `;
 
 export const StyledBannerImage = styled.div`
