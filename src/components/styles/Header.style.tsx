@@ -4,13 +4,14 @@ export const StyleHeader = styled.header`
     position : sticky;
     top : 0;
     z-index : 20;
-    background-color : hsla(0,0%,7%,.25);
+    background-color : hsla(0,0%,7%,.9);
     display : flex;
     justify-content : space-between;
     align-items: center;
     height : 93px;
     padding : 0 2.4rem;
     backdrop-filter : blur(12px);
+    -webkit-backdrop-filter: blur(10px);
     font-weight : 700;
     width: 100%;
     
