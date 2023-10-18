@@ -82,6 +82,10 @@ export const StyleSkillsContainer = styled.div`
         grid-template-columns: repeat(4,auto);
         width:100%;
         }
+        @media(max-width:480px){
+        grid-template-columns: repeat(3,auto);
+        width:100%;
+        }
     img {
         
         max-width: 70px;
