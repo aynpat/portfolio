@@ -106,7 +106,7 @@ export const StyledHeroBtn = styled.button`
     width : fit-content;
    
     .btnLink{
-        color :inherit;
+        color : #141414;
     }
     
 `;

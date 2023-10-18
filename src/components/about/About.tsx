@@ -22,7 +22,7 @@ const About = React.forwardRef((props: PropsType, ref: React.Ref<HTMLDivElement>
 
             <StyledContainer>
             <StyledAboutContent>
-                    <p><span>A</span>s a dedicated and passionate learner in the field of development I have an interest in creating interactive and user focused web applications. I have built my foundation learning the fundamentals.HTML, CSS and JavaScript to build visually appealing and responsive front end interfaces. I am enthusiastic, about contributing my skills to design user experiences while working collaboratively within a team oriented setting.</p>
+                    <p><span>A</span>s an enthusiastic and committed learner in the field of web development, I'm excited about creating dynamic, user-centered web applications. My strong foundation in HTML, CSS, and JavaScript enables me to design aesthetically pleasing and responsive front-end interfaces. I'm eager to apply my skills to contribute to the growth of businesses while working collaboratively in a team-oriented environment.</p>
             </StyledAboutContent>
               
                 <StyledAboutImage>

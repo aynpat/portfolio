@@ -75,6 +75,6 @@ export const StyleButton = styled.button`
     
   }
   &:hover {
-    color : black;
+    color : #141414;
   }
 `;
