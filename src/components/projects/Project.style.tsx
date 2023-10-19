@@ -9,16 +9,16 @@ export const StyledProjects = styled.div`
     grid-template-columns:1fr;
     gap: 50px; 
     @media(max-width:1027px){
-            padding-top:4rem;
+            padding-top:5rem;
             padding-left:2.5rem;
             padding-right:2.5rem;
             padding-bottom:4rem;
         }
-        @media(max-width:800px){
-            padding-top:7rem;
+    @media(max-width:800px){
+            padding-top:5rem;
             padding-left:1.1rem;
             padding-right:1.1rem;
-            padding-bottom: 2.5rem;
+            padding-bottom: 5.5rem;
         }
 `
 
@@ -27,15 +27,16 @@ export const StyledProjectsHeader = styled.div`
     flex-direction : row-reverse;
     align-items: center;
     gap : 1rem;
-    margin-bottom: 2.4rem;
+    
     @media(max-width:800px){
         margin-bottom: 5rem;
     }
     @media(max-width:768px){
         align-items: center;
+        margin-bottom: 2rem;
         } 
     @media(max-width:671px){
-        margin-bottom: 3.4rem;
+        margin-bottom: 1rem;
         }      
 `
 

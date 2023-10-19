@@ -13,7 +13,7 @@ type TypeProps = {
         <StyledProjectContainer>
         <StyledImageContainer><img src={props.image} alt="" /></StyledImageContainer>
             <StyledDetailsContainer>
-                <StyledDetailsTitle><h4>{props.title}</h4></StyledDetailsTitle>
+                <StyledDetailsTitle><h2>{props.title}</h2></StyledDetailsTitle>
                 <StyledDetailsTech><span>{props.technology}</span></StyledDetailsTech>
                 <StyledProjectInfo><p>{props.info}</p></StyledProjectInfo>
             </StyledDetailsContainer>

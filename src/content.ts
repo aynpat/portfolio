@@ -10,9 +10,9 @@ const contents:ContentType[] = [
     {
         contentId:  1,
         image: 'project-image.jpeg',
-        title: 'Add to Cart Website 🛒',
-        technology:'React js, tailwind MongoDB',
-        info: 'E-Commerce website built with Tailwind and React JS. Provides a user interface with an interactive and functionality display.'
+        title: 'TinDog',
+        technology:'HTML , CSS , BOOTSTRAP',
+        info: 'The online marketplace that matches dog owners in need of pet-care services with qualified pet caregivers, Tindog offers a great way to socialize a dog while connecting people that share a similar interest.'
     },
     {
         contentId:  2,

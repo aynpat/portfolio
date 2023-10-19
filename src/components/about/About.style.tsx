@@ -13,8 +13,10 @@ export const StyledAboutSection = styled.div`
                 padding:9rem 2.5rem 7.5rem 2.5rem;
              }
             @media(max-width:768px){
-                padding:7rem 1.1rem .5rem 1.1rem;
+                padding:7rem 1.1rem 7rem 1.1rem;
             }
+
+       
    
 `;
 // ////////////////// header section title with line optimize in one
@@ -32,7 +34,7 @@ export const StyledAboutHeader = styled.div`
         align-items: center;
         } 
     @media(max-width:671px){
-        margin-bottom: 3.4rem;
+        margin-bottom: 1rem;
         }   
 
 `
@@ -67,13 +69,16 @@ export const StyledAboutLine = styled.div`
 ///////////////////////////////////////////////////////
 
 export const StyledContainer = styled.div`
+    padding-top:3rem;
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 4rem;
     align-items:center;
     flex-wrap:nowrap;
-    
+    @media(max-width:780px){
+        padding-top:7rem;
+    }
     @media(max-width:671px){
             gap:3rem;
             flex-direction:column;
@@ -118,7 +123,8 @@ export const StyledAboutContent = styled.div`
 
 export const StyledAboutImage = styled.div`
     img{
-       
+       border:10px #1f1f1f red;
+       border-radius:50%;
         height: auto;
         max-width: 320px;
         @media(max-width:1027px){

@@ -27,6 +27,9 @@ export const HeroContainer = styled.div`
             padding-right:1.5rem;
             padding-bottom: 5rem;            
         }
+        @media(max-width:576px){
+            padding-bottom: 1rem; 
+        }
       
 `
 

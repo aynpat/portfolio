@@ -4,7 +4,7 @@ export const StyleHeader = styled.header`
     position : sticky;
     top : 0;
     z-index : 20;
-    background-color : hsla(0,0%,7%,.9);
+    background-color : hsla(0,0%,7%,.20);
     display : flex;
     justify-content : space-between;
     align-items: center;
