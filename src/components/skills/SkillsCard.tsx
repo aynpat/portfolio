@@ -1,5 +1,5 @@
 import { ImageContainer } from "./Skills.style";
-import React,{ useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { useInView, useAnimation} from 'framer-motion'
 
 type PropsType = {

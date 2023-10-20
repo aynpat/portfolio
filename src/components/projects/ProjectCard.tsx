@@ -1,5 +1,5 @@
 import { StyledDetailsContainer, StyledDetailsTech, StyledDetailsTitle, StyledImageContainer, StyledProjectContainer, StyledProjectInfo } from "./Project.style"
-import React,{ useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { useInView, useAnimation} from 'framer-motion'
 type TypeProps = {
     id : number;
