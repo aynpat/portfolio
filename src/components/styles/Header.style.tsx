@@ -37,7 +37,7 @@ export const StyleIcons = styled.a`
     }
 `
 
-export const StyleButton = styled.button`
+export const StyleButton = styled.a`
   position: relative;
   border: none;
   padding: 0.8rem 1.4rem;
@@ -47,7 +47,7 @@ export const StyleButton = styled.button`
   cursor: pointer;
   transition: all 0.2s ease-in; /* Reduced the transition duration */
   z-index: 4;
-  border-radius : none;
+  border-radius : 5px;
   overflow : hidden;
 
    @media(max-width:768px){
@@ -65,14 +65,14 @@ export const StyleButton = styled.button`
     left: 0;
     top: 0;
     transition: all 0.2s ease; /* Add a smooth transition for width and height */
-    
+    font-weight: 200;
   }
 
   &:hover::before {
    
     width: 100%; /* Expand to cover the button on hover */
     height: 100%;
-    
+    font-weight: 200;
   }
   &:hover {
     color : #141414;

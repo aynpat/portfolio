@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { motion } from 'framer-motion';
 
 export const StyledSkillsSection = styled.div`
     padding : 9.6rem 9.6rem 9.6rem 9.6rem;
@@ -34,7 +34,7 @@ margin-bottom: 7.4rem;
 
 `
 
-export const StyledSkillsTitle = styled.div`
+export const StyledSkillsTitle =  styled(motion.div)`
 h3 {
     font-size:4rem;
     color: #ebecf3;
@@ -110,8 +110,7 @@ export const StyleSkillsContainer = styled.div`
     } */
 
 `
-export const ImageContainer = styled.div`
-    /* border :3px solid brown; */
+export const ImageContainer = styled(motion.div)`
     display : flex;
     flex-direction: column;
     align-items: center;
@@ -120,14 +119,14 @@ export const ImageContainer = styled.div`
     width: 80px;
     height: 80px;
     transition: all ease .5s;
- 
     &:hover{
-            transform: translateY(-5px) scale(1.2);
+            transform: translateY(-5px) scale(1.2) !important;
         }
     p {
         color : #ebecf3;
         font-size: 1rem;
-        font-weight : 600;
+        font-family: inherit;
+        font-weight: 200;
     }
     
 `

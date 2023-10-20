@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { motion } from 'framer-motion'
 
 export const StyledProjects = styled.div`
 
@@ -40,7 +40,7 @@ export const StyledProjectsHeader = styled.div`
         }      
 `
 
-export const StyledProjectsTitle = styled.div`
+export const StyledProjectsTitle = styled(motion.div)`
     
     h3 {
         font-size:4rem;
@@ -77,7 +77,7 @@ export const Container = styled.div`
         }
 `
 
-export const StyledProjectContainer = styled.div`
+export const StyledProjectContainer = styled(motion.div)`
     display :flex;
     flex-direction:column;
     width: 100%;
@@ -135,8 +135,16 @@ export const StyledDetailsTitle = styled.div`
     
 export const StyledDetailsTech = styled.div`
     color: #0aff9d;
+    font-size: 1.2rem;
+    font-weight : 400;
 `
     
 export const StyledProjectInfo = styled.div`
     color: #ebecf3;
+    p{
+        font-size: 1.2rem;
+        font-family: inherit;
+        font-weight: 200;
+    }
+
 `

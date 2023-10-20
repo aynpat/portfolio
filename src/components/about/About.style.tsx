@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { motion }  from 'framer-motion' 
 
 
 export const StyledAboutSection = styled.div`
@@ -39,7 +39,7 @@ export const StyledAboutHeader = styled.div`
 
 `
 
-export const StyledAboutTitle = styled.div`
+export const StyledAboutTitle = styled(motion.div)`
     h3 {
         font-size:4rem;
         color: #ebecf3;
@@ -86,7 +86,7 @@ export const StyledContainer = styled.div`
             word-spacing:3px;
         }
 `
-export const StyledAboutContent = styled.div`
+export const StyledAboutContent = styled(motion.div)`
         justify-self: start;
         width: 600px;
         max-width: fit-content;
@@ -106,7 +106,7 @@ export const StyledAboutContent = styled.div`
     }
     span{
         text-align: center;
-        padding: 5px 0px 5px 0px;
+        padding-top: 5px;
         margin-right: 6px;
         float: left;
         line-height: 180%;
@@ -121,10 +121,11 @@ export const StyledAboutContent = styled.div`
 `
 
 
-export const StyledAboutImage = styled.div`
+export const StyledAboutImage = styled(motion.div)`
     img{
-       border:10px solid #1f1f1f ;
-       border-radius:40%;
+       border:10px solid #1f1f1f;
+       padding: 20px;
+       border-radius:50%;
         height: auto;
         max-width: 320px;
         @media(max-width:1027px){

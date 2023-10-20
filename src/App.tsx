@@ -1,6 +1,7 @@
 import { useState, useEffect} from 'react'
 import { useInView } from 'react-intersection-observer'
 import contents from './content'
+import skillscontent from './skillscontent'
 import './App.css'
 import SideBar from './components/SideBar'
 import Main from './components/Main'
@@ -13,6 +14,7 @@ import Contact from './components/contact/Contact'
 import ProjectCard from './components/projects/ProjectCard'
 import ContainerStyled from './components/Container.style'
 import Footer from './components/footer/Footer'
+import SkillsCard from './components/skills/SkillsCard'
 
 function App() {
 
@@ -85,7 +87,15 @@ function App() {
             }
  
           </Projects>
-          <Skills id='skills' ref={skillRef}/>
+          <Skills id='skills' ref={skillRef}>
+              {
+                skillscontent?.map((skill,index)=>{
+                  return (
+                    <SkillsCard key={index} id={skill.contentId} imageSource={skill.imageSource} language={skill.language}/>
+                  )
+                })
+              }
+          </Skills>
           <Contact id='contact' ref={contactRef}/>
           <Footer/> 
         </ContainerStyled>   
