@@ -71,7 +71,6 @@ function App() {
           <Header/>
           <HeroSection/>
           <About id="about" ref={aboutRef}/>
-          {/* <Projects id="projects" ref={projectRef}/> */}
           <Projects id="projects" ref={projectRef}>
             {
               contents?.map((content,index)=> {

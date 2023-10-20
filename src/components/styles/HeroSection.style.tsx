@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-
-export const HeroContainer = styled.div`
+import {motion} from 'framer-motion'
+export const HeroContainer = styled(motion.div)`
        
         display :flex;
         gap:50px;
@@ -33,7 +33,7 @@ export const HeroContainer = styled.div`
       
 `
 
-export const StyledHeroSection = styled.div`
+export const StyledHeroSection = styled(motion.div)`
     position : relative;
     display:flex;
     flex-direction:column;
@@ -45,7 +45,7 @@ export const StyledHeroSection = styled.div`
     
 `
 
-export const StyledMainHeadContainer = styled.div`
+export const StyledMainHeadContainer = styled(motion.div)`
     color: #ebecf3;
     h1{
         font-size : 4.2rem;
@@ -63,12 +63,9 @@ span{
 
 
 @keyframes wiggle {
-    0%,to {
-        transform: rotate(-10deg)
-    }
 
     50% {
-        transform: rotate(3deg)
+        transform: rotate(4deg)
     }
 }
      
@@ -76,7 +73,7 @@ span{
 
 `;
 
-export const StyledSubHeadContainer = styled.div`
+export const StyledSubHeadContainer = styled(motion.div)`
       color : #ebecf3;
        h2{
             font-size: 2.6rem;
@@ -92,7 +89,7 @@ export const StyledSubHeadContainer = styled.div`
         }
 `;
 
-export const StyledContentContainer = styled.div`
+export const StyledContentContainer = styled(motion.div)`
         color : #ebecf3;
         max-width : 680px;
         margin: 2rem 0;
@@ -104,7 +101,7 @@ export const StyledContentContainer = styled.div`
 
     `;
 
-export const StyledHeroBtn = styled.button`
+export const StyledHeroBtn = styled(motion.button)`
     background-color: #0aff9d;
     width : fit-content;
    
@@ -114,7 +111,7 @@ export const StyledHeroBtn = styled.button`
     
 `;
 
-export const StyledBannerImage = styled.div`
+export const StyledBannerImage = styled(motion.div)`
     align-self : center;
     justify-self: center;
 

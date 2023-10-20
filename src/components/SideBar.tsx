@@ -1,5 +1,4 @@
 import { StyleLogo, StyledLink, StyledSideBar } from "./styles/SideBar.style"
-
 type PropType = {
    
     
@@ -9,6 +8,7 @@ type PropType = {
     contactProp : boolean;
 
 }
+
 const SideBar = ({ aboutProp,projectProp,ExpProp,contactProp } : PropType) => {
 
 
@@ -20,10 +20,10 @@ const SideBar = ({ aboutProp,projectProp,ExpProp,contactProp } : PropType) => {
                 <StyleLogo href="#home">P<span></span></StyleLogo>
                 <nav>
                 
-                    <StyledLink href="#about" isActive={aboutProp}>About</StyledLink>
-                    <StyledLink href="#projects" isActive={projectProp}>Projects</StyledLink>
-                    <StyledLink href="#skills" isActive={ExpProp}>Skills</StyledLink>
-                    <StyledLink href="#contact" isActive={contactProp}>Contact</StyledLink>
+                    <StyledLink href="#about" isactive={aboutProp}>About</StyledLink>
+                    <StyledLink href="#projects" isactive={projectProp}>Projects</StyledLink>
+                    <StyledLink href="#skills" isactive={ExpProp}>Skills</StyledLink>
+                    <StyledLink href="#contact" isactive={contactProp}>Contact</StyledLink>
               
                 </nav>
 

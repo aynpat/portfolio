@@ -6,6 +6,7 @@ const ContainerStyled = styled.div`
     padding: 0;
     min-width:100%;
     max-width: 100%;
+    position: relative;
 `
 
 export default ContainerStyled;

@@ -123,8 +123,8 @@ export const StyledAboutContent = styled.div`
 
 export const StyledAboutImage = styled.div`
     img{
-       border:10px #1f1f1f red;
-       border-radius:50%;
+       border:10px solid #1f1f1f ;
+       border-radius:40%;
         height: auto;
         max-width: 320px;
         @media(max-width:1027px){

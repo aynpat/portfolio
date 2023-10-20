@@ -1,6 +1,7 @@
 import styled from "styled-components";
+
 type LinkProp = {
-    isActive : boolean;
+    isactive : boolean;
 }
 
 export const StyledSideBar = styled.nav`
@@ -31,8 +32,8 @@ export const StyledLink = styled.a<LinkProp>`
     align-items : center;
     height :100px;
     width : 100%;
-    background-color : ${({isActive}) => isActive ? '#1f1f1f' : '#080808'} ;
-    border-right: 2px solid ${({ isActive }) => (isActive === true ?  '#0aff9d' :`transparent` )};
+    background-color : ${({isactive}) => isactive ? '#1f1f1f' : '#080808'} ;
+    border-right: 2px solid ${({ isactive }) => (isactive === true ?  '#0aff9d' :`transparent` )};
     transition : all .1s;
     
 
@@ -43,13 +44,7 @@ export const StyledLink = styled.a<LinkProp>`
         border-right: 2px solid #0aff9d;
         opacity: 1 ;
     }
-    /* &:focus {
-        
-        color :#ebecf3; 
-        background-color : ${({isActive}) => isActive ? '#1f1f1f' : '#1f1f1f'} ;
-         ${({ isActive }) => isActive && `border-right: 2px solid #0aff9d !important;`}
-        opacity: ${({ isActive }) => (isActive ? '1' : '0.5')};
-    } */
+ 
     
     &:active {
         scroll-behavior : smooth;
