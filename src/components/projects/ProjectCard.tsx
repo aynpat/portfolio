@@ -18,7 +18,7 @@ type TypeProps = {
             mainControl.start("visible")
         
         }
-    }, [isInView])
+    }, [isInView,mainControl])
 
         const NavItems = {
             hidden: { opacity: 0, y: 75 },
