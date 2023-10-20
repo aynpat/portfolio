@@ -10,6 +10,11 @@ type PropsType = {
 
 const SkillsCard = (props: PropsType) => {
 
+    const NavItems = {
+        hidden: { opacity: 0, scale: 0},
+        visible: { opacity: 1, scale :1 }
+    }
+    
     const skillsRef = useRef(null);
     const isInView = useInView(skillsRef,{once: true})
     const mainControl = useAnimation();
@@ -18,17 +23,13 @@ const SkillsCard = (props: PropsType) => {
             mainControl.start("visible")
         
         }
-    }, [isInView])
+    }, [isInView,mainControl])
   
-        const NavItems = {
-            hidden: { opacity: 0, scale: 0},
-            visible: { opacity: 1, scale :1 }
-        }
 
     return (
         <ImageContainer ref={skillsRef}  variants={NavItems}
         initial='hidden' animate={mainControl}
-        transition={{ duration : 0.8, delay: 0.50}}>
+        transition={{ duration : 0.2, delay: 0.2}}>
             <img src={props.imageSource} alt="" />
             <p>{props.language}</p>
         </ImageContainer>

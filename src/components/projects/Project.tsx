@@ -23,7 +23,7 @@ const Projects = React.forwardRef((props: PropsType,ref : React.Ref<HTMLDivEleme
             if(isInview){
                 Control.start('visible')
             }
-        },[isInview])
+        },[isInview,Control])
     return(
         <StyledProjects id={props.id} ref={ref}>
            <StyledProjectsHeader>

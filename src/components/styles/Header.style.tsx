@@ -49,7 +49,7 @@ export const StyleButton = styled.a`
   z-index: 4;
   border-radius : 5px;
   overflow : hidden;
-
+  font-weight: 400;
    @media(max-width:768px){
       padding: 0.8rem 1.2rem;
             }

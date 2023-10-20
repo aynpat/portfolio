@@ -73,7 +73,6 @@ export const StyleSkillsContainer = styled.div`
     padding: 1rem;
     grid-row-gap: 1rem;
     grid-column-gap: 0;
-
     @media(max-width:1027px){
            display: grid;
            grid-template-columns: repeat(4, minmax(100px, 1fr));  
@@ -113,11 +112,12 @@ export const StyleSkillsContainer = styled.div`
 export const ImageContainer = styled(motion.div)`
     display : flex;
     flex-direction: column;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
-
-    width: 80px;
-    height: 80px;
+    
+    width: fit-content;
+    height: auto;
     transition: all ease .5s;
     &:hover{
             transform: translateY(-5px) scale(1.2) !important;

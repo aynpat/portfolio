@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-
-
+import { motion } from 'framer-motion'
 export const StyledContactSection = styled.div`
      background-color: rgba(35, 35, 35,0.2);
      
@@ -56,7 +55,7 @@ export const StyledContactLine = styled.div`
 `
 
 
-export const ContactContainer = styled.div` 
+export const ContactContainer = styled(motion.div)` 
     display: grid;
     /* grid-template-columns: repeat(auto-fill, minmax(min-content, 1fr)); */
     grid-template-columns: 1fr repeat(1, minmax(min-content, 70%));
@@ -67,7 +66,7 @@ export const ContactContainer = styled.div`
     }
    
 `
-export const ContactInformation = styled.div`
+export const ContactInformation = styled(motion.div)`
     min-width:auto;
     padding-top: 3.1rem;
     @media(max-width:800px){
@@ -89,7 +88,7 @@ export const ContactInformation = styled.div`
   
 `
 
-export const ContactIcons = styled.div`
+export const ContactIcons = styled(motion.div)`
     display: flex;
     justify-content:space-around;
     

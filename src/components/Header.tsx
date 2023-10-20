@@ -9,7 +9,7 @@ const Header = () => {
                 <StyleIcons><FaGithub/></StyleIcons>
                 <StyleIcons><FaTwitter/></StyleIcons>
             </StyleIconContainer>
-            <StyleButton href="/files/resumeko.pdf" type="application/pdf" target="_blank">My resume ko</StyleButton>
+            <StyleButton href="/files/resumeko.pdf" type="application/pdf" target="_blank">My resume</StyleButton>
         </StyleHeader>   
     )
 }
