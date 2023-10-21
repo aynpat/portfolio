@@ -20,7 +20,7 @@ const About = React.forwardRef((props: PropsType, ref: React.Ref<HTMLDivElement>
             mainControl.start("visible")
         
         }
-    }, [isInView,mainControl])
+    }, [isInView])
 
         const NavItems = {
             hidden: { opacity: 0, y: 75 },
