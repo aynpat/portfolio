@@ -32,25 +32,25 @@ const Contact = React.forwardRef((props: PropsType, ref: React.Ref<HTMLDivElemen
         
       
             <StyledContactSection id={props.id} ref={ref} >
-                <StyledContactHeader ref={cardRef}>
+                <StyledContactHeader>
                     <StyledContactTitle>
                         <h3>Contact<span>.</span></h3>
                     </StyledContactTitle>
                     <StyledContactLine/>
                 </StyledContactHeader>
-                <ContactContainer  variants={NavItems}
+                <ContactContainer    variants={NavItems}
                         initial='hidden' animate={mainControl}
                         transition={{ duration : 0.8, delay: 0.50}}>
-                        <ContactInformation>
+                        <ContactInformation >
                                 <h2>Let's Connect! 📩</h2>
                                     <p>If you ever just want a quick chat  you can find me on social media or you can send me a message here!</p>
-                                <ContactIcons>
+                                <ContactIcons ref={cardRef}>
                                     <span ><FaGithub/></span>
                                     <span><FaLinkedin/></span>
                                     <span><FaTwitter/></span>
                                 </ContactIcons>
                         </ContactInformation>
-                       <ContactForm/>
+                       <ContactForm />
                 </ContactContainer>
              
             </StyledContactSection>        

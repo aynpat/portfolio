@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { motion } from 'framer-motion'
 export const StyleHeader = styled.header`
     position : sticky;
     top : 0;
@@ -27,7 +27,7 @@ export const StyleIconContainer = styled.div`
         gap : 20px;
 `
 
-export const StyleIcons = styled.a`
+export const StyleIcons = styled(motion.a)`
     color :grey;
     font-size : 21px;
     padding-top : 10px;
