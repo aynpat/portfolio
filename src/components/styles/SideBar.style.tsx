@@ -1,10 +1,10 @@
 import styled from "styled-components";
-
+import { motion } from 'framer-motion';
 type LinkProp = {
     isactive : boolean;
 }
 
-export const StyledSideBar = styled.nav`
+export const StyledSideBar = styled(motion.nav)`
     position: sticky;
     top : 0;
     left : 0;
@@ -19,7 +19,7 @@ export const StyledSideBar = styled.nav`
     /* overflow-y: scroll; */
 `   
 
-export const StyledLink = styled.a<LinkProp>`
+export const StyledLink = styled(motion.a)<LinkProp>`
     
     transform : none;
     writing-mode: vertical-lr;

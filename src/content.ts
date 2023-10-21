@@ -34,7 +34,7 @@ const contents:ContentType[] = [
         image: 'project-image2.jpeg',
         title: 'Project four',
         technology:'REST API - EXPRESS - REACTJS -MONGODB',
-        info: 'Think four Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.'
+        info: ' Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.'
     }
 ]
 
