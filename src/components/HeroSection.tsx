@@ -41,7 +41,7 @@ const HeroSection = () => {
             transition={{ duration : 0.5, delay: 0.25}}>
                     I've spent the last 5 years building and scaling software for some pretty cool companies. I also teach people to paint online (in case you've got an empty canvas layin' around 🎨). Let's connect!
                 </StyledContentContainer>
-                <StyledHeroBtn ref={ref} variants={{
+                <StyledHeroBtn  variants={{
             hidden: { opacity: 0, y: 75 },
             visible: { opacity: 1, y: 0, }
         }}
@@ -51,7 +51,7 @@ const HeroSection = () => {
                 </StyledHeroBtn>
             </StyledHeroSection>
 
-            <StyledBannerImage ref={ref} variants={{
+            <StyledBannerImage  variants={{
             hidden: { opacity: 0, y: 75 },
             visible: { opacity: 1, y: 0, }
         }}
