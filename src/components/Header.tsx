@@ -34,11 +34,15 @@ const Header = () => {
                 transition={{ duration : 0.8, delay: 0.25}}
                 ><FaLinkedin/></StyleIcons>
                 <StyleIcons
+                href='https://github.com/aynpat'
+                target="_blank"
                 variants={NavItems}
                 initial='hidden' animate={mainControl}
                 transition={{ duration : 0.8, delay: 0.50}}
                 ><FaGithub/></StyleIcons>
                 <StyleIcons
+                href='https://twitter.com/riktap0fcl'
+                target="_blank"
                 variants={NavItems}
                 initial='hidden' animate={mainControl}
                 transition={{ duration : 0.8, delay: 1}}
