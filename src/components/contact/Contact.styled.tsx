@@ -92,11 +92,11 @@ export const ContactIcons = styled(motion.div)`
     display: flex;
     justify-content:space-around;
     
-    span {
+    a {
         color: #ebecf3;
         font-size: 1.6rem;
     }
-    span:hover{
+    a:hover{
         color: #0aff9d;
     }
 `

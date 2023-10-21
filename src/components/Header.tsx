@@ -48,7 +48,7 @@ const Header = () => {
                 transition={{ duration : 0.8, delay: 1}}
                 ><FaTwitter/></StyleIcons>
             </StyleIconContainer>
-            <StyleButton href="/files/resumeko.pdf" type="application/pdf" target="_blank">My resume</StyleButton>
+            <StyleButton href="/files/rsm.pdf" type="application/pdf" target="_blank">My resume</StyleButton>
         </StyleHeader>   
     )
 }
