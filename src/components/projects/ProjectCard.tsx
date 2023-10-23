@@ -6,6 +6,8 @@ type TypeProps = {
     id : number;
     image:string;
     title:string;
+    websiteLink:string;
+    githubLink:string;
     technology:string;
     info : string;
 }
@@ -34,8 +36,8 @@ type TypeProps = {
         <StyledImageContainer>
             <img src={props.image} alt="" />
             <Overlay>
-                <OverlayIcons href="#"><FaEye/></OverlayIcons>
-                <OverlayIcons href="#"><FaGithub/></OverlayIcons>
+                <OverlayIcons href={props.websiteLink} target="_blank"><FaEye/></OverlayIcons>
+                <OverlayIcons href={props.githubLink} target="_blank"><FaGithub/></OverlayIcons>
             </Overlay>
         </StyledImageContainer>
             <StyledDetailsContainer>

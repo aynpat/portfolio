@@ -81,6 +81,8 @@ function App() {
                           id={content.contentId}
                           image={content.image}
                           title={content.title}
+                          websiteLink={content.websiteLink}
+                          githubLink={content.githubLink}
                           technology={content.technology}
                           info={content.info}
                       /> )})
