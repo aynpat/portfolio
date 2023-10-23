@@ -17,24 +17,24 @@ const contents:ContentType[] = [
     {
         contentId:  2,
         image: 'project-image2.jpeg',
-        title: 'Project Two',
-        technology:'MONGODB - REACTJS - EXPRESS - TYPESCRIPT - NODEJS',
-        info: 'The online marketplace that matches dog owners in need of pet-care services with qualified pet caregivers, Tindog offers a great way to socialize a dog while connecting people .'
+        title: 'Still in the working state',
+        technology:'MONGODB - REACTJS - EXPRESS - TYPESCRIPT - NODEJS - REDUX TOOLKIT',
+        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
         contentId:  3,
-        image: 'project-image.jpeg',
-        title: 'Project three',
+        image: 'example-project.jpg',
+        title: 'Still in the working state',
         technology:'C++ - MYSQL - REACTJS',
-        info: 'Think three Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.'
+        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
     }
     ,
     {
         contentId:  4,
-        image: 'project-image2.jpeg',
-        title: 'Project four',
-        technology:'REST API - EXPRESS - REACTJS -MONGODB',
-        info: ' Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.'
+        image: 'example-project.jpg',
+        title: 'Still in the working state',
+        technology:'REST-API - EXPRESS - REACTJS -MONGODB',
+        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
     }
 ]
 
