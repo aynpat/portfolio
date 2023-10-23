@@ -34,6 +34,7 @@ const Projects = React.forwardRef((props: PropsType,ref : React.Ref<HTMLDivEleme
         </StyledProjectsHeader>
         <Container  ref={headerRef}>
             {props.children}
+           
         </Container>
         </StyledProjects>
     )

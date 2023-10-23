@@ -19,7 +19,7 @@ const contents:ContentType[] = [
         image: 'project-image2.jpeg',
         title: 'Still in the working state',
         technology:'MONGODB - REACTJS - EXPRESS - TYPESCRIPT - NODEJS - REDUX TOOLKIT',
-        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  sed do eiusmod tempor incididunt consectetur adipiscing elit  .'
     },
     {
         contentId:  3,

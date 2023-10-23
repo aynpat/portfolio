@@ -1,6 +1,7 @@
-import { StyledDetailsContainer, StyledDetailsTech, StyledDetailsTitle, StyledImageContainer, StyledProjectContainer, StyledProjectInfo } from "./Project.style"
+import { Overlay, OverlayIcons, StyledDetailsContainer, StyledDetailsTech, StyledDetailsTitle, StyledImageContainer, StyledProjectContainer, StyledProjectInfo } from "./Project.style"
 import { useEffect, useRef } from 'react'
 import { useInView, useAnimation} from 'framer-motion'
+import { FaEye, FaGithub } from "react-icons/fa"
 type TypeProps = {
     id : number;
     image:string;
@@ -30,12 +31,19 @@ type TypeProps = {
         <StyledProjectContainer ref={cardRef} variants={NavItems}
                         initial='hidden' animate={mainControl}
                         transition={{ duration : 0.8, delay: 0.50}}>
-        <StyledImageContainer><img src={props.image} alt="" /></StyledImageContainer>
+        <StyledImageContainer>
+            <img src={props.image} alt="" />
+            <Overlay>
+                <OverlayIcons href="#"><FaEye/></OverlayIcons>
+                <OverlayIcons href="#"><FaGithub/></OverlayIcons>
+            </Overlay>
+        </StyledImageContainer>
             <StyledDetailsContainer>
                 <StyledDetailsTitle><h2>{props.title}</h2></StyledDetailsTitle>
                 <StyledDetailsTech><span>{props.technology}</span></StyledDetailsTech>
                 <StyledProjectInfo><p>{props.info}</p></StyledProjectInfo>
             </StyledDetailsContainer>
+            
         </StyledProjectContainer>
   
     )

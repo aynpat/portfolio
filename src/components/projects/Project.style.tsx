@@ -83,7 +83,7 @@ export const StyledProjectContainer = styled(motion.div)`
     width: 100%;
     place-items:center;
     border-radius: 0.4rem;
- 
+    
     @media(max-width:800px){
         display:grid;
         grid-template-columns:1fr;
@@ -114,7 +114,7 @@ export const StyledImageContainer = styled.div`
        border-radius: .3rem;
     }
 
-    img:hover{
+    /* img:hover{
         transform: translateY(-5px) scale(1.2);
         opacity : .4;
 
@@ -122,7 +122,7 @@ export const StyledImageContainer = styled.div`
             display: none;
         }
        
-    }
+    } */
  
 
 `
@@ -148,3 +148,33 @@ export const StyledProjectInfo = styled.div`
     }
 
 `
+
+export const Overlay = styled.div`
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-color : hsla(0,0%,7%,.20);
+
+        &:hover{
+        backdrop-filter : blur(12px);
+        -webkit-backdrop-filter: blur(10px);
+        opacity: 0.9;
+        }
+`
+
+export const OverlayIcons = styled.a`
+        color: #232323;
+        font-size: 2.5rem;
+        padding: 2.5rem;
+`
+    
+
