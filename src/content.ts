@@ -34,7 +34,7 @@ const contents:ContentType[] = [
         websiteLink :'https://aynpat.github.io/TinDog-Website/',
         githubLink :'https://github.com/aynpat/TinDog-Website.git',
         technology:'C++ - MYSQL - REACTJS',
-        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
     }
     ,
     {

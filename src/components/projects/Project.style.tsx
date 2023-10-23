@@ -104,13 +104,13 @@ export const StyledImageContainer = styled.div`
     background-color:#232323;
     img{ 
        position : relative;
-       width : 90%;
+       width : 100%;
        height: 100%;
        transition : all .5s ease-in-out;
        z-index : -0;
-       translate: -50% 20%;
+       /* translate: -50% 20%;
        bottom: 0;
-       left: 50%;
+       left: 50%; */
        border-radius: .3rem;
     }
 
@@ -154,12 +154,14 @@ export const Overlay = styled.div`
         display: flex;
         justify-content: center;
         align-items:center;
-        top: 0;
+        /* top: 0;
         bottom: 0;
-        left: 0;
-        right: 0;
+        right: 0; */
+        width : 100%;
         height: 100%;
-        width: 100%;
+        /* left: 50%;
+        translate: -50% 20%; */
+        border-radius: .3rem;
         opacity: 0;
         transition: .3s ease;
         background-color : hsla(0,0%,7%,.20);
@@ -173,7 +175,7 @@ export const Overlay = styled.div`
 
 export const OverlayIcons = styled.a`
         color: #232323;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: 2.5rem;
 `
     
