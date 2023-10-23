@@ -27,7 +27,7 @@ const Header = () => {
         <StyleHeader>
             <StyleIconContainer ref={cardRef} >
                 <StyleIcons 
-                href='https://www.linkedin.com/in/ryan-dela-cruz-b33b4b290/'
+                href='https://www.linkedin.com/in/patrick-gauran-5289701ba/'
                 target="_blank"
                 variants={NavItems}
                 initial='hidden' animate={mainControl}

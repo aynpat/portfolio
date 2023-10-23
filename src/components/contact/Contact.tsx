@@ -46,7 +46,7 @@ const Contact = React.forwardRef((props: PropsType, ref: React.Ref<HTMLDivElemen
                                     <p>If you ever just want a quick chat  you can find me on social media or you can send me a message here!</p>
                                 <ContactIcons ref={cardRef}>
                                     <a href='https://github.com/aynpat' target="_blank" ><FaGithub/></a>
-                                    <a href='https://www.linkedin.com/in/ryan-dela-cruz-b33b4b290/' target="_blank"><FaLinkedin/></a>
+                                    <a href='https://www.linkedin.com/in/patrick-gauran-5289701ba/' target="_blank"><FaLinkedin/></a>
                                     <a href='https://twitter.com/riktap0fcl' target="_blank"><FaTwitter/></a>
                                 </ContactIcons>
                         </ContactInformation>
