@@ -50,7 +50,7 @@ const About = React.forwardRef((props: PropsType, ref: React.Ref<HTMLDivElement>
                         variants={NavItems}
                         initial='hidden' animate={mainControl}
                         transition={{ duration : 0.5, delay: 0.25}}>
-                    <p><span>A</span>s an enthusiastic and committed learner in the field of web development, I'm excited about creating dynamic, user-centered web applications. My strong foundation in HTML, CSS, and JavaScript enables me to design aesthetically pleasing and responsive front-end interfaces. I'm eager to apply my skills to contribute to the growth of businesses while working collaboratively in a team-oriented environment.</p>
+                    <p><span>I</span>am an enthusiastic and dedicated software engineer with a passion for building efficient and reliable software solutions. My in-depth knowledge of software engineering ensures that I produce high-quality software. I'm eager to use my skills to help businesses grow while working collaboratively in a team.</p>
             </StyledAboutContent>
               
                 <StyledAboutImage variants={NavItems}  ref={imageRef} 

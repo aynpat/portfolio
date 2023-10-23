@@ -31,7 +31,7 @@ const HeroSection = () => {
         }}
             initial='hidden' animate={mainControl}
             transition={{ duration : 0.5, delay: 0.25}}>
-                    <h2>I'm a <span>Full Stack Developer</span></h2>
+                    <h2>I'm a <span>Software Engineer</span></h2>
                 </StyledSubHeadContainer>
                 <StyledContentContainer ref={ref} variants={{
             hidden: { opacity: 0, y: 75 },

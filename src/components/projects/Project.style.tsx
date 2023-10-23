@@ -177,6 +177,10 @@ export const OverlayIcons = styled.a`
         color: #232323;
         font-size: 2rem;
         padding: 2.5rem;
+        transition: .3s ease;
+        &:hover {
+            scale :1.3;
+        }
 `
     
 
