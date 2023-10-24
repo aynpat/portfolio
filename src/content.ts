@@ -24,7 +24,7 @@ const contents:ContentType[] = [
         title: 'Still in the working state',
         websiteLink :'https://aynpat.github.io/TinDog-Website/',
         githubLink :'https://github.com/aynpat/TinDog-Website.git',
-        technology:'MONGODB - REACTJS - EXPRESS - TYPESCRIPT - NODEJS - REDUX TOOLKIT',
+        technology:'REACTJS - EXPRESS - TYPESCRIPT - NODEJS - REDUX TOOLKIT',
         info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  sed do eiusmod tempor incididunt consectetur adipiscing elit  .'
     },
     {
