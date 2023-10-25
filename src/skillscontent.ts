@@ -5,60 +5,65 @@ type ContentType = {
  }
  const skillsContent:ContentType[] = [
  
+    {
+        contentId:  1,
+        imageSource : "/images/javascript_icon.svg",
+        language : 'JAVASCRIPT'
+       },
      {
-         contentId:  1,
+         contentId:  2,
          imageSource : "/images/mysql_icon.svg",
          language : 'MYSQL'
         },
      {
-         contentId:  2,
+         contentId:  3,
          imageSource : "/images/nodejs_icon.svg",
          language : 'NODEJS'
      },
      {
-         contentId:  3,
+         contentId:  4,
          imageSource : "/images/html_icon.svg",
          language : 'HTML'
      }
      ,
      {
-         contentId:  4,
+         contentId:  5,
          imageSource : "/images/css_icon.svg" ,
          language : 'CSS'
      },
      {
-        contentId:  5,
+        contentId:  6,
         imageSource : "/images/git_icon.svg",
         language : 'Git'
    },
     {
-        contentId:  6,
+        contentId:  7,
         imageSource : "/images/expressjs_icon.svg",
         language : 'Express.Js'
     },
     {
-        contentId:  7,
+        contentId:  8,
         imageSource : "/images/mongodb_icon.svg",
         language : 'MongoDB'
     }
     ,
     {
-        contentId:  8,
+        contentId:  9,
         imageSource : "/images/react_icon.svg",
         language : 'React'
     },
     {
-        contentId:  9,
+        contentId:  10,
         imageSource : "/images/typescript_icon.svg",
         language : 'TypeScript'
    },
     {
-        contentId:  10,
+        contentId:  11,
         imageSource : "/images/csharp_icon.svg" ,
         language : 'CSharp'
     },
     {
-        contentId:  11,
+        contentId:  12,
         imageSource : "/images/tailwind_icon.svg",
         language : 'TailWind'
     }
