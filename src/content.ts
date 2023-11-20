@@ -22,8 +22,8 @@ const contents:ContentType[] = [
         contentId:  2,
         image: 'project-image2.jpeg',
         title: 'Still in the working state',
-        websiteLink :'https://aynpat.github.io/TinDog-Website/',
-        githubLink :'https://github.com/aynpat/TinDog-Website.git',
+        websiteLink :'#/',
+        githubLink :'#',
         technology:'REACTJS - EXPRESS - TYPESCRIPT - NODEJS - REDUX TOOLKIT',
         info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  sed do eiusmod tempor incididunt consectetur adipiscing elit  .'
     },
@@ -31,9 +31,9 @@ const contents:ContentType[] = [
         contentId:  3,
         image: 'example-project.jpg',
         title: 'Still in the working state',
-        websiteLink :'https://aynpat.github.io/TinDog-Website/',
-        githubLink :'https://github.com/aynpat/TinDog-Website.git',
-        technology:'C++ - MYSQL - REACTJS',
+        websiteLink :'#',
+        githubLink :'#',
+        technology:'C# - REACTJS',
         info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
     }
     ,
@@ -41,9 +41,9 @@ const contents:ContentType[] = [
         contentId:  4,
         image: 'example-project.jpg',
         title: 'Still in the working state',
-        websiteLink :'https://aynpat.github.io/TinDog-Website/',
-        githubLink :'https://github.com/aynpat/TinDog-Website.git',
-        technology:'REST-API - EXPRESS - REACTJS -MONGODB',
+        websiteLink :'#',
+        githubLink :'#',
+        technology:'REST-API - EXPRESS - REACTJS - MONGODB',
         info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
     }
 ]
